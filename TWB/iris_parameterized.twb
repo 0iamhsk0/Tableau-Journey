@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0711.1636                               -->
+<workbook original-version='18.1' source-build='2024.2.1 (20242.24.0711.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column alias='average_sepal_length' caption='Analysis' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='3.'>
+        <calculation class='tableau' formula='3.' />
+        <aliases>
+          <alias key='1.' value='average_petal_length' />
+          <alias key='2.' value='average_petal_width' />
+          <alias key='3.' value='average_sepal_length' />
+          <alias key='4.' value='average_sepal_width' />
+        </aliases>
+        <members>
+          <member alias='average_petal_length' value='1.' />
+          <member alias='average_petal_width' value='2.' />
+          <member alias='average_sepal_length' value='3.' />
+          <member alias='average_sepal_width' value='4.' />
+        </members>
+      </column>
+    </datasource>
+    <datasource caption='Iris' inline='true' name='federated.0fyab261vimi4y1gxcbgc021w6lv' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Iris' name='textscan.0d5ot331onhe421ghcvjr0c26yst'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='D:/asus_cloud/Desktop/B.tech/FIFTH SEM/tableau/DATA/Iris.csv' dataRefreshTime='' directory='D:/asus_cloud/Desktop/B.tech/FIFTH SEM/tableau/DATA' filename='C:/Users/Hemant/AppData/Local/Temp/TableauTemp/1bc2u7107arfo21bn66ur0pr6q62/Iris.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0d5ot331onhe421ghcvjr0c26yst' name='Iris.csv' table='[Iris#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='Id' ordinal='0' />
+            <column datatype='real' name='SepalLengthCm' ordinal='1' />
+            <column datatype='real' name='SepalWidthCm' ordinal='2' />
+            <column datatype='real' name='PetalLengthCm' ordinal='3' />
+            <column datatype='real' name='PetalWidthCm' ordinal='4' />
+            <column datatype='string' name='Species' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0d5ot331onhe421ghcvjr0c26yst' name='Iris.csv' table='[Iris#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='Id' ordinal='0' />
+            <column datatype='real' name='SepalLengthCm' ordinal='1' />
+            <column datatype='real' name='SepalWidthCm' ordinal='2' />
+            <column datatype='real' name='PetalLengthCm' ordinal='3' />
+            <column datatype='real' name='PetalWidthCm' ordinal='4' />
+            <column datatype='string' name='Species' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iris.csv_34123D6BA6BE4840BBEBDA77E0835B77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SepalLengthCm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SepalLengthCm]</local-name>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias>SepalLengthCm</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iris.csv_34123D6BA6BE4840BBEBDA77E0835B77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SepalWidthCm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SepalWidthCm]</local-name>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias>SepalWidthCm</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iris.csv_34123D6BA6BE4840BBEBDA77E0835B77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PetalLengthCm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PetalLengthCm]</local-name>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias>PetalLengthCm</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iris.csv_34123D6BA6BE4840BBEBDA77E0835B77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PetalWidthCm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PetalWidthCm]</local-name>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias>PetalWidthCm</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iris.csv_34123D6BA6BE4840BBEBDA77E0835B77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Species</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Species]</local-name>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias>Species</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iris.csv_34123D6BA6BE4840BBEBDA77E0835B77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='work of analysis' datatype='real' name='[Calculation_2146528224084459520]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CASE [Parameters].[Parameter 1]&#13;&#10;WHEN 1 THEN AVG([PetalLengthCm])&#13;&#10;WHEN 2 THEN AVG([PetalWidthCm])&#13;&#10;WHEN 3 THEN AVG([SepalLengthCm])&#13;&#10;WHEN 4 THEN AVG([SepalWidthCm])&#13;&#10;END' />
+      </column>
+      <column datatype='integer' name='[Id]' role='dimension' type='ordinal' />
+      <column caption='Petal Length Cm' datatype='real' name='[PetalLengthCm]' role='measure' type='quantitative' />
+      <column caption='Petal Width Cm' datatype='real' name='[PetalWidthCm]' role='measure' type='quantitative' />
+      <column caption='Sepal Length Cm' datatype='real' name='[SepalLengthCm]' role='measure' type='quantitative' />
+      <column caption='Sepal Width Cm' datatype='real' name='[SepalWidthCm]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Iris.csv' datatype='table' name='[__tableau_internal_object_id__].[Iris.csv_34123D6BA6BE4840BBEBDA77E0835B77]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Id' />
+        <field-sort-custom-order field='SepalLengthCm' />
+        <field-sort-custom-order field='SepalWidthCm' />
+        <field-sort-custom-order field='PetalLengthCm' />
+        <field-sort-custom-order field='PetalWidthCm' />
+        <field-sort-custom-order field='Species' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <datasource-dependencies datasource='Parameters'>
+        <column alias='average_sepal_length' caption='Analysis' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='3.'>
+          <calculation class='tableau' formula='3.' />
+          <aliases>
+            <alias key='1.' value='average_petal_length' />
+            <alias key='2.' value='average_petal_width' />
+            <alias key='3.' value='average_sepal_length' />
+            <alias key='4.' value='average_sepal_width' />
+          </aliases>
+        </column>
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Iris.csv' id='Iris.csv_34123D6BA6BE4840BBEBDA77E0835B77'>
+            <properties context=''>
+              <relation connection='textscan.0d5ot331onhe421ghcvjr0c26yst' name='Iris.csv' table='[Iris#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='Id' ordinal='0' />
+                  <column datatype='real' name='SepalLengthCm' ordinal='1' />
+                  <column datatype='real' name='SepalWidthCm' ordinal='2' />
+                  <column datatype='real' name='PetalLengthCm' ordinal='3' />
+                  <column datatype='real' name='PetalWidthCm' ordinal='4' />
+                  <column datatype='string' name='Species' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='parameterized analysis'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Iris' name='federated.0fyab261vimi4y1gxcbgc021w6lv' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='average_sepal_length' caption='Analysis' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='3.'>
+              <calculation class='tableau' formula='3.' />
+              <aliases>
+                <alias key='1.' value='average_petal_length' />
+                <alias key='2.' value='average_petal_width' />
+                <alias key='3.' value='average_sepal_length' />
+                <alias key='4.' value='average_sepal_width' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0fyab261vimi4y1gxcbgc021w6lv'>
+            <column caption='work of analysis' datatype='real' name='[Calculation_2146528224084459520]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Parameters].[Parameter 1]&#13;&#10;WHEN 1 THEN AVG([PetalLengthCm])&#13;&#10;WHEN 2 THEN AVG([PetalWidthCm])&#13;&#10;WHEN 3 THEN AVG([SepalLengthCm])&#13;&#10;WHEN 4 THEN AVG([SepalWidthCm])&#13;&#10;END' />
+            </column>
+            <column caption='Petal Length Cm' datatype='real' name='[PetalLengthCm]' role='measure' type='quantitative' />
+            <column caption='Petal Width Cm' datatype='real' name='[PetalWidthCm]' role='measure' type='quantitative' />
+            <column caption='Sepal Length Cm' datatype='real' name='[SepalLengthCm]' role='measure' type='quantitative' />
+            <column caption='Sepal Width Cm' datatype='real' name='[SepalWidthCm]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Species]' role='dimension' type='nominal' />
+            <column-instance column='[Species]' derivation='None' name='[none:Species:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2146528224084459520]' derivation='User' name='[usr:Calculation_2146528224084459520:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0fyab261vimi4y1gxcbgc021w6lv].[usr:Calculation_2146528224084459520:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0fyab261vimi4y1gxcbgc021w6lv].[usr:Calculation_2146528224084459520:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0fyab261vimi4y1gxcbgc021w6lv].[usr:Calculation_2146528224084459520:qk]</rows>
+        <cols>[federated.0fyab261vimi4y1gxcbgc021w6lv].[none:Species:nk]</cols>
+      </table>
+      <simple-id uuid='{DB9D6A30-ADC3-497C-88B0-08EAD3F0B060}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='parameterized analysis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='compact' param='[Parameters].[Parameter 1]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0fyab261vimi4y1gxcbgc021w6lv].[:Measure Names]</field>
+            <field>[federated.0fyab261vimi4y1gxcbgc021w6lv].[none:Id:ok]</field>
+            <field>[federated.0fyab261vimi4y1gxcbgc021w6lv].[none:Species:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{32AB6D6A-5F3A-4F6A-A91F-A8892020157D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='parameterized analysis' width='192'>
+      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
+      ICxNAiAs7f8DhtChimlRahMAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

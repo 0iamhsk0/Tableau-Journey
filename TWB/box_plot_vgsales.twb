@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0711.1636                               -->
+<workbook original-version='18.1' source-build='2024.2.1 (20242.24.0711.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='UCI auto-mpg' inline='true' name='federated.16frfpl0z9ij541505rw909kyqrw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='UCI auto-mpg' name='textscan.19zu6os1q2bohh1bzimli1d57qy7'>
+            <connection class='textscan' directory='D:/asus_cloud/Desktop/B.tech/FIFTH SEM/tableau/DATA' filename='UCI auto-mpg.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.19zu6os1q2bohh1bzimli1d57qy7' name='UCI auto-mpg.csv' table='[UCI auto-mpg#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='real' name='mpg' ordinal='0' />
+            <column datatype='integer' name='cylinders' ordinal='1' />
+            <column datatype='real' name='displacement' ordinal='2' />
+            <column datatype='integer' name='horsepower' ordinal='3' />
+            <column datatype='integer' name='weight' ordinal='4' />
+            <column datatype='real' name='acceleration' ordinal='5' />
+            <column datatype='integer' name='model year' ordinal='6' />
+            <column datatype='integer' name='origin' ordinal='7' />
+            <column datatype='string' name='car name' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.19zu6os1q2bohh1bzimli1d57qy7' name='UCI auto-mpg.csv' table='[UCI auto-mpg#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='real' name='mpg' ordinal='0' />
+            <column datatype='integer' name='cylinders' ordinal='1' />
+            <column datatype='real' name='displacement' ordinal='2' />
+            <column datatype='integer' name='horsepower' ordinal='3' />
+            <column datatype='integer' name='weight' ordinal='4' />
+            <column datatype='real' name='acceleration' ordinal='5' />
+            <column datatype='integer' name='model year' ordinal='6' />
+            <column datatype='integer' name='origin' ordinal='7' />
+            <column datatype='string' name='car name' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[UCI auto-mpg.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mpg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mpg]</local-name>
+            <parent-name>[UCI auto-mpg.csv]</parent-name>
+            <remote-alias>mpg</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UCI auto-mpg.csv_6C0EA33AD08A4537AE48808F7AC19C05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cylinders</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cylinders]</local-name>
+            <parent-name>[UCI auto-mpg.csv]</parent-name>
+            <remote-alias>cylinders</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UCI auto-mpg.csv_6C0EA33AD08A4537AE48808F7AC19C05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>displacement</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[displacement]</local-name>
+            <parent-name>[UCI auto-mpg.csv]</parent-name>
+            <remote-alias>displacement</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UCI auto-mpg.csv_6C0EA33AD08A4537AE48808F7AC19C05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>horsepower</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[horsepower]</local-name>
+            <parent-name>[UCI auto-mpg.csv]</parent-name>
+            <remote-alias>horsepower</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UCI auto-mpg.csv_6C0EA33AD08A4537AE48808F7AC19C05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weight</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weight]</local-name>
+            <parent-name>[UCI auto-mpg.csv]</parent-name>
+            <remote-alias>weight</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UCI auto-mpg.csv_6C0EA33AD08A4537AE48808F7AC19C05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acceleration</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[acceleration]</local-name>
+            <parent-name>[UCI auto-mpg.csv]</parent-name>
+            <remote-alias>acceleration</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UCI auto-mpg.csv_6C0EA33AD08A4537AE48808F7AC19C05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>model year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[model year]</local-name>
+            <parent-name>[UCI auto-mpg.csv]</parent-name>
+            <remote-alias>model year</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UCI auto-mpg.csv_6C0EA33AD08A4537AE48808F7AC19C05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>origin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[origin]</local-name>
+            <parent-name>[UCI auto-mpg.csv]</parent-name>
+            <remote-alias>origin</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UCI auto-mpg.csv_6C0EA33AD08A4537AE48808F7AC19C05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>car name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[car name]</local-name>
+            <parent-name>[UCI auto-mpg.csv]</parent-name>
+            <remote-alias>car name</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UCI auto-mpg.csv_6C0EA33AD08A4537AE48808F7AC19C05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='UCI auto-mpg.csv' datatype='table' name='[__tableau_internal_object_id__].[UCI auto-mpg.csv_6C0EA33AD08A4537AE48808F7AC19C05]' role='measure' type='quantitative' />
+      <column caption='Acceleration' datatype='real' name='[acceleration]' role='measure' type='quantitative' />
+      <column caption='Car Name' datatype='string' name='[car name]' role='dimension' type='nominal' />
+      <column caption='Cylinders' datatype='integer' name='[cylinders]' role='measure' type='quantitative' />
+      <column caption='Displacement' datatype='real' name='[displacement]' role='measure' type='quantitative' />
+      <column caption='Horsepower' datatype='integer' name='[horsepower]' role='measure' type='quantitative' />
+      <column caption='Model Year' datatype='integer' name='[model year]' role='dimension' type='quantitative' />
+      <column caption='Mpg' datatype='real' name='[mpg]' role='measure' type='quantitative' />
+      <column caption='Origin' datatype='integer' name='[origin]' role='measure' type='quantitative' />
+      <column caption='Weight' datatype='integer' name='[weight]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='UCI auto-mpg.csv' id='UCI auto-mpg.csv_6C0EA33AD08A4537AE48808F7AC19C05'>
+            <properties context=''>
+              <relation connection='textscan.19zu6os1q2bohh1bzimli1d57qy7' name='UCI auto-mpg.csv' table='[UCI auto-mpg#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='real' name='mpg' ordinal='0' />
+                  <column datatype='integer' name='cylinders' ordinal='1' />
+                  <column datatype='real' name='displacement' ordinal='2' />
+                  <column datatype='integer' name='horsepower' ordinal='3' />
+                  <column datatype='integer' name='weight' ordinal='4' />
+                  <column datatype='real' name='acceleration' ordinal='5' />
+                  <column datatype='integer' name='model year' ordinal='6' />
+                  <column datatype='integer' name='origin' ordinal='7' />
+                  <column datatype='string' name='car name' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Model year vs mpg analysis'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='UCI auto-mpg' name='federated.16frfpl0z9ij541505rw909kyqrw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16frfpl0z9ij541505rw909kyqrw'>
+            <column caption='Model Year' datatype='integer' name='[model year]' role='dimension' type='quantitative' />
+            <column caption='Mpg' datatype='real' name='[mpg]' role='measure' type='quantitative' />
+            <column-instance column='[model year]' derivation='None' name='[none:model year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[mpg]' derivation='Sum' name='[sum:mpg:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='refboxplot'>
+            <format attr='palette' id='refline0' value='bp_red' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <reference-line axis-column='[federated.16frfpl0z9ij541505rw909kyqrw].[sum:mpg:qk]' boxplot-mark-exclusion='true' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.16frfpl0z9ij541505rw909kyqrw].[sum:mpg:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.16frfpl0z9ij541505rw909kyqrw].[sum:mpg:qk]</rows>
+        <cols>[federated.16frfpl0z9ij541505rw909kyqrw].[none:model year:ok]</cols>
+      </table>
+      <simple-id uuid='{46963630-37AF-4C4D-9453-12FE957224B8}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Model year vs mpg analysis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.16frfpl0z9ij541505rw909kyqrw].[none:model year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5D137D78-6BE2-4DA2-809D-3CDF77977407}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Model year vs mpg analysis' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAWmElEQVR4nO2dWXMb15XH/7cbQGMjFoI7uO8SRUmJzchMnIrtOIs9GU9VqpIXj7/IzMeY
+      +Q55cE1NasrzMFN+0CSV8hrZliyJ4i4ShEiC2Hc0uu88iAIJmmigCWLt83uRLm6f7nOb/e++
+      ffueexjnnIMgDIrQagcIopWQAAhDQwLoAr794m8IJ3PY+v5rbOyflNUdB3YQTcsAgGToAMFI
+      Coe7G4hkZDx79gxG7/+aWu0AUT/7+5tIi24kNr6EPMhxsPkQdu8Q7GoSDx89xI3Xfo5vT15A
+      zKchTb2OH/t78Z//9R8YnllC7uvPEctyzE0O4cmTNcwuzOHR4y28/tM3Mex1tLppDYeeAF2A
+      pWcA+cgOJIcXkcAapL45BHc3sPk8iJuz43j4xefICWbI+SwAwOzwwSZy3F6awedffQPOFezu
+      7KCQeIG1rT1YfBOGuPgBegJ0BdPTM2CFJGzufowUBMQPdzC3dAfmfBQvwgm8+96vsL6+heHp
+      BTh6X17Yi8t3YLPa8LM3XkMWVrgsHIIoondoDBZHb4tb1DzYdQ2DqqoKQaAHCtFZXNsVS58T
+      iE6EbtmEoSEBEIaGBEAYGhIAYWhIAIShIQEQhoY+hBFdzdbWFnK5XMV6EgDR1RQKhTIB7O7u
+      YnJyslQmARBdzY0bN8rKZrMZt2/fLpXpHYAwNCQAwtDo7gIlIsdQLW6kTgJIFQUszk41wi+C
+      aAq6BKAWCwjsb0F0z+Nk7zmmb9wtmwRHE+KIdodzXnad6hJAYHsdmYKKbCiEN3/+Nta+/Q6e
+      Pi8sqgpFUUgARNujnl6rr9AlgPH5WxgtJHCU4Nhce4qi1Q4rY2CiCAAQT/8liHZFFEWYTGeX
+      ve53AMHiwnAfgD73dfpFdDGcc+TlIvIFGYIgwCZZIAoMjLFWu0ajQERjURQVJ7EUsrkCLGYT
+      BMYQjaeRzOTaostMH8KIhsE5RySRhttpg9kklu74dqsFsWQGmVwBDpvUUh/pCUA0jIKswCQK
+      ZRc/ADDG4Hbakc7mW/4UIAEQDSNXkGG1mC/t6wsCAxgjARDdiygwKOrlFzjnHOAcQGtfhEkA
+      RMOwSRZkcpd3c4pFBYIgoNUDQSQAomGIogCrZEY8mYF6KgLOOWS5iEgiA0+PreVDoTQKRDSU
+      HrsVmVwBoWgSwmmfXxAE+DwOiG2wkBoJgGgojDE4bBLsVgtUzsHAwBhafud/BQmAaAqMMYht
+      ctGfp/XPIIJoISQAwtCQAAhDo/sdoJDLQBUs4HIWMjfB5bQ1wi+CaAq6BMBVBRtPH0D0zkOO
+      H4EDuHlnmd6kiY5F17W7t/EY8awCRQliyNUHO7LIcw5GEWFEh6AoCorFYqmsMyJsGaO5CPYi
+      IvLRXRxzCSMUEUZ0EHVFhDHGINp8mPID8N+9bt+ILuPFixf49NNPS+VkMgm73V66Ubrdbnzw
+      wQetcg/ANeYIUxSFngCEJhsbG/D7/bDb7S3z4eHDh7QyHEG8ggRAGBoawSS6moujk3WNAhFE
+      p/H0k/9GJhIp++3Bt9+V/k8CILqayf4+qFZrxXoSANG2KIqCb775RnObu3fvlo3r64UEQLQt
+      jDE4HI6y37a2tjAzM1O2TT2QAIi2RRCEH2R4kWX5B7/VdYxr2xNBdCAkAMLQUBeIqMjm5ia2
+      trYq1vv9fty6dauJHl0/JACiIsPDw3C5XKXy2toaFhcXS2WrxvBip0ACICricDjKRmEODw8x
+      MDDQQo+uH10CyCaj2N47AEx25OKHcPQOU5I8oqPRJQCroweCkodg98LtdiMajUHmHEIDIsK+
+      +uorbG5ulsqxWAwej6dUXlpaKpvWSjSei/No9KKqKorFYl370OsDVzlUVa1Yr0sAqXgMsNiR
+      zyRgF0WoxSLAWCkO4DrjAVZXV7G6uloqX5zHTTSfi9FUehEEASaTqa596PWBCQyCxhKMujxx
+      enyYd3khCAI455gGjaMSnY3+kMjTu3y7rO1IEPVAN3DC0JAACENDAiAMDX0Ia2Pu37+P/f39
+      ivUrKytlX2Yv8vjxYzx48KBi/erqKmZnZ+vysdMhAbQxb731VllZ71Dw0tISlpaWrtmrzkJO
+      paHE4xXrSQBEV3Py4AFyB8GK9fQOQBgaegI0kI8//hi5XK5UzmazsNnOlpN///334fP5WuFa
+      R6CqKra3t8t+CwaDZSvLTU1N1TUDgQTQQP7whz+UlWk6h05UFY4nT8t+ugMA535j4+MACYDo
+      RhhjcEhSQ49B7wCEoSEBEIaGBEAYGl3vALlUDNt7B/ANjKKYDiPHLZiZHG2UbwTRcHQJwGJz
+      wudxIRY7BoomSEgjxzks/GXUTSOnSKuqqhnZ0wnU24Zmn4PDQABHgUCpfBAMQkmlSuXegQGM
+      TU/XvD9+ep3U2gauqlWjDF/tU6teax+6R4FEkxlFOQ4TE8EBvLrkKT6g+/DmC3AkkqXytLMH
+      OFc29/S0wi1dFH75DvLnRBsIHGB01F8q6wuKTyVwfBKBb2AUaiaKHHdCYgxgDJxzzdCzehEE
+      oaH7bwb1tqHZ50BgTPPGxph2uGGl7Wu14ZxXvbFW8+HWT35SVpYufIvRJQCHuxc33b2nJY/m
+      tgTRCdCHsAokk0n8+c9/LpVlWUahUCitkyMIAj788MNWuUdcEySACvT09OCjjz4qlROJBMLh
+      MKamaB2kboIEQDSM2EEQT//3f85+4MAJUBo5sbnduPv737fCtRJdK4CjoyOsr69XrHe73TQx
+      rcE4JQlLI/6K9YKjdfmCX9G1AnA4HBgbGyuV19fXMT8/Xyp3w8KuRP10rQCcTiecTmepnEgk
+      MDk52TqHiLakswfWCaJOGvYE+OSTTxCNRivWv/POO/D7K/cP99bWEDoXy3lyEoIcOimVhyYn
+      4D+XLK0defjXv0IuyKXyxTYsrrwOx7n194nm0zAB/O53vysr642G6ldUeM6tAjzn8QLnypYO
+      mBc0VVTANdpgvcbVtImr0bXvAARwuL2NwNqzivUTy7fQf26gwIiQALoYLxNg14iXtdIERnoJ
+      JoxNxSfA882neHESh2ix487tW7CYSCtE91Hxqn6+H4B/ZADBrSd4vLELAFAVGdub60hk8gju
+      7WBtc6dZfhJEQ6gogAn/MB59/xSLP7qH0aGXmQELuRyGRsfwfHsH+wcB9NGiTkSHU7kL9HwH
+      xaKCeEbGwuzLL6omk4i19S3MLixC4JPY/P4pnD++C3MNSfL0JjerFjqnKqqu/dWb4K1YLJaS
+      vNWKylVwjTYoSvkwaTX0n0NF8xwqVc6hUsW+2vlQFG17qFzTnlezf3WMOs5hRQFkMhnIioiv
+      /vopBgf7MTHoRTR0CBkM0VgU6XAIimSDhTEINSTJ05vcTK4SOSSIgq791ZvgzWQylZK81YrA
+      BHCNNoiiCLGBbVAEUfMcilXOYTX7qudDrGbPNO15DRFnoihCqOMcXmq59t1XsPWOwAHgRytv
+      YmLQCwDoH51G/6tFIAb6az4oQbQrlwpgaMSPSHoHilxA7tynfEIfJ99+ByWdrlg/urwM0e1u
+      okcdBueQzwW0N4JLBRCLnCAajcEs2eBxOS/bhKiBXOgYxWTlP6BapJuLFlxRELz/f5rbuH/7
+      GwgWy5WPcWkHi5327bgiI5GsfAcjiE7n0ifAxNwtTMzdarYv10o6nS6bjXpycoLAuUWeJElC
+      f397v8eEw2Fks9lS+WIbPB5PWcwDoZ+unQvET8Io/v3rUnkaQPHLL0tlU18/0OYCUDY2UAye
+      TQm/2Ab19h1glgRQD10rAIvJhF5H5YtD7ICQSKdkhVWjDZK5a/98TYMm+BCGpmG3kMd/+xuy
+      ybN1JKPRKL4+9zife+01uNu8C0J0Pw0TwAQYVHbuAdNbPm/IBqLdkTNpZEOhyhu4XB3/d6RO
+      JFGRdOAAx198WbHeyxhcq2800aPrh94BCENDT4AuJhcOI/r4ScV638gILKPGzvBDAuhiCvE4
+      kjuVg5Zc5wYpGkExm0F8c7NivcnjhfPNhrpQFV0CKBZy2NnZhW94HGomgiyXMDZMIznE5cjp
+      NGIaq1JIAwMYbqI/l6FLAKqqYmxiApvbWxAhwYwkCkN9MJ/WXwyI0czvxKvUN9q+Sn2hUMDa
+      k7PuQyabRTKZRCIWA/ByvtRylXWOeDUfq7ZBO7/Vy2No7b9O+wbX8zrra/Xh4rbnt9clAMYV
+      bGzuYeHmLHa3jmABhwJAPI3eOr9jzlW8bMLlqKoCRVE06qvYc7WKvVKXvVAoYPLo6IcVr35j
+      ApSlyvZA9QRt1c8Bh/Y5rHYOtJPMNdxe0bbnnGva8ypRhsDLCC9o7OMHPl3wWZcAEtEwVAac
+      hDOQxBwyXIKVMbBLIsIYE8CYVkSXdnSTLFSxrxKNpAqitj2rYi9q24NpRzO99FE7oqnaOeCy
+      DCWbq+yCqmraC1UjsrTPQbV8XlXtxSr2Vc6hqig1RYTVExmoSwC+kUn4Rk4LA72a2xL1E3n0
+      CImHjyrWD3u9sLbx+qhqfz9y//SPpXIoFILb7Ybl1fx9u0PbHsAOL48J5ioHE84W9Fqo4kOh
+      UCh7isiyjHw+Xyq37ShQ9vgYKY0EFy6XC9a5uSZ6ROjF7fNh5d13S+WNjQ34/X7Y7bUlxjBJ
+      Ej74938r+03vGrP3799H7PS97RVbW1tnx6h5T00me3SE+PpGxXoLrfVP1MCvf/1rzfq2FUC9
+      FGIxhDW6D9bxMTh+stJEj4h2pGsFIKdTSO3tVazn0tXjSInugeYCEYaGBEAYmq7tAhH1E1cU
+      7BbyFevVYhGdPpWOBEBUZPYf3sf0e78tlR89eoTl5eVSmXVBgg0SAFGRi1+C611ftR3prtYQ
+      ZWRcLhxNTlSs7+2hJVVIAF3MxMrrmFh5vWXHD4VC+Pzzz0vlk5MTuN1umM0v5w87nU68/fbb
+      rXIPQAMFkD0+hhyJVKy33LxRmkbdjqjFIlLnVmG7CBNEVMvwG715E/K5ld2isRi8Hk+pPGnT
+      DilPTU7i/Bm8aO/t66viQWvxeDx4883KES9ay+k3i4YJILa2hlzwRcV65xv30M5LUyn5PMLf
+      flexnoli1WCOn/7zh2VlvfNYln71bllZr32rMZvN8Hq9rXZDE90CSKVScDqdiJ4cIy1zjA4P
+      NsIvgkCxWMSf/vSnst9SqRS+++7sxvTHP/4RkiRd+Ri6BFDIJPDlN4/wzs9/hp3dHYxOzV/5
+      wNXIcY6kRqCDi7KsN5xsNlu2OG8ymUTkXLdWkiQ4HNpTmuvBZDLho48+atj+AZ0CsNhdGO7v
+      BcAxPj6Ovc1tuHt/DNMlOcJUlVfJT6Wd78r17i8hvHGvVN7Y2MDcuenPTperSn6qKjnG6sxv
+      xQRBd86xevOU1Wuvl+fPn5dNHQaAzz77rPR/v9+PW7c6exVxXQLIJCI4PjqGw+VBPh4FLBaY
+      GCu9zJx/qakWDVVtTLm/v79s+fJkMompqamafRWrRSNViWZSqkRTsRoiwn7oU33j6M0eh19c
+      XMTi4mLTjtcKdJ1Nu6sXv/jFL14WRlodz08Q9dOw28mBqiKhnvXhL4ayDXBedRiRIBpNwwTw
+      1r/+S1m504bwCGPQtV+CCz4fYq+/ViqHI2H4zq1QzYdo+JboYgEMzsxg8NyKCfQEIi6jawVQ
+      L9xmQ+qXZ/NU8vk8stksPKdTEViV9WoA4OOPP0Yud7auTyaTKfuI8/7778Pn811mCuDligb7
+      +/sV7VdWVjRHaR4/fowHDx5UrF9dXcXs7GzVdnQzjOtZV04DRVE053bUewdutX0ikUA4HNY1
+      FEu0PxQSSRgaEgBhaNr2HeCLL77A+rmV4TjnZf3f5eVl3L17txWuEV1E2wrg3r17uHfvXvUN
+      CaIOqAtEGJq2fQLUSyAQKOsyBYPBsiFFn8+HN96onOEwnU7j/v37pXIul0Mmk8GT06QZgiDg
+      vffeu37HiabStQLo7+/H6upqxfpqsyqtVqumPdEddK0AJEmqK1JIFEX09lIOhG5H1zuAnEvj
+      s6/+DoBjc+17PHq6oZHAhyDaH11PANFshctpB5ADF9zwIocs55AuiQi7SLOjmQiiFvQlyRME
+      MHBwbkKhkIYCBYMVIsIu0o2rihGdj64rMpuMgYEhcBjF2IgPOW5p67V9CKIaOkMivbjhOlvn
+      RSuiKx6Pl6WjTCQSZSsKOJ3Os2RpBNEiGjYb9C9/+QuSyWTF7VdWVjAwMHAdhyaIK9O06dAE
+      0Y7QVAjC0JAACENDAiAMDQmAMDQkAMLQkAAIQ0MCIAwNCYAwNCQAwtCQAAhDQwIgDM2VBbC9
+      /hRrmzvX6QtBNJ0rR6hEImF4hybBOQfn2vnACKJdueJsUBWFgoLdp08xdnsZ0qkAtHJqEUQ7
+      cuUnQHBvB8zlhY0xgDFwzkkARMdB8QCEoaFbNmFoSACEoSEBEIaGBEAYGhIAYWhIAIShIQEQ
+      hoYEQBgaEgBhaEgAhKG5sgCioUO8OI5U35Ag2pgrCkBG8DiOZOgF5Ov1hyCayhUFoMBitsFm
+      toByvhCdzBUFIEFECgkuwHq9/hBEU6Hp0IShqTtp16twyHpDIuuNKLsOe8YYGGMt9cHI9q/u
+      xc38G9QtAHaaJI8xVlfjW23/yraek9/qNnS6/XUIQK8P19YFuhS1iI31DSTSBSzMj2Nn9wBT
+      cwtwWmtPrRd4voVoLInhqXmEAtuYmb8Ji6n2BkaOgzgMhWF3D0DJhFEUHZifmUCtpzibimFn
+      LwiYrHBZOGKZIhYW5mAWa/OBK3k8e7aFrMxx+85NbD9dw/j8AqQa7cFVPN/eQjSexvjMOAI7
+      BxgcG8egz11jC4Dj4D5OIhE4vEPIJk7QPzwBn8dZs/3hwXNEIlHYPYPIJqMoMjOWb8zVbJ+I
+      HCNwGILF7oYop5CDBYtz0zX/DQq5FLa291CECQNuCSfxHBYWF1D7ZcCxu7mOjGrG9LAXG7sH
+      mJpdgNNmbvCHMMGEuYUFOBw2HL0I4caNaQQDh7p2MToxA4fNCqdFgCAKkBV9eu0dGMGg1wVH
+      Tw8mpmZRTKegp7Nmc3owOzECq9UOX38/IOeQL9a+ByZKWLyxAJvVgkzkCKFIErKqow1MwMTM
+      HBwOK5CJI6sCZrO+B/fAyBjcTgdS4TCyCoOq85435J+A027DwNAg5mcnYJUkXfau3gGMD/ZC
+      stuRSOaQSyahVDcrYbE6MT83BUmSEI6nMdIr4eA4oWMPKhLJLPKpBJ6/CGHxxgyCBy8ANOFL
+      cPzkBXr6hgBwFIsKULPuX6LkUyiaHLBarbCZr/CSzVWEEln0uSRsrD/DxPwc9O5lP3gI/8gA
+      wERYzQx5Wc+fDwgd7KFvZAwHwUPI2ThC4ZguezkTBbN64Orz4/U7NxDY3dVlz1UFyZyKHqsF
+      E1PTODkM6rJXlQIyigk2s4DAfgD+0VFd9uAcgeM4Rn02cFGCVeTQeQpxsLcH/9goBn1ubO8d
+      wGTS8VdUZXDBAqsIyAqHcu46bHjmakWwYrjXhaId2Nw5wNTMrC77XF7G+OgICpkkIokMCuIh
+      Zif8NdurxRwGR8bB1SKKsopgIIjZ2Ukdyufw9PZDMjEEAoeQRTtcNj3ZkTkEmwu9Tiv6bt3F
+      iD8Kq6v27gsApHMqJscGIWcS2N07gH9iUpe9UkhjaHQSPZKKzc1tDIxM6LIv5rPwj46DgcPp
+      6YPdou++yVUZA0MjYKIVvT0m5LgdVl13IQ6Hpw8Oi4iMqsLVN4YRn6N2c0GC12VGTrFjesSH
+      rZ19TE6/7ML9P6wNFB3Imxm0AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

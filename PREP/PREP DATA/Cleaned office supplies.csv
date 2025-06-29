@@ -1,0 +1,41 @@
+﻿OrderDate,Region,Rep,Item,Units,Units less than 50,Unit Price
+04-07-2014,East,Richard,Pen Set,62,False,4.99
+12-07-2014,East,Nick,Binder,29,True,1.99
+21-07-2014,Central,Morgan,Pen Set,55,False,12.49
+29-07-2014,East,Susan,Binder,81,False,19.99
+07-08-2014,Central,Matthew,Pen Set,42,True,23.95
+15-08-2014,East,Richard,Pencil,35,True,4.99
+10-09-2014,Central,Bill,Pencil,7,True,1.29
+18-09-2014,East,Richard,Pen Set,16,True,15.99
+27-09-2014,West,James,Pen,76,False,1.99
+05-10-2014,Central,Morgan,Binder,28,True,8.99
+14-10-2014,West,Thomas,Binder,57,False,19.99
+22-10-2014,East,Richard,Pen,64,False,8.99
+31-10-2014,Central,Rachel,Pencil,14,True,1.29
+08-11-2014,East,Susan,Pen,15,True,19.99
+17-11-2014,Central,Alex,Binder,11,True,4.99
+25-11-2014,Central,Matthew,Pen Set,96,False,4.99
+04-12-2014,Central,Alex,Binder,94,False,19.99
+12-12-2014,Central,Smith,Pencil,67,False,1.29
+21-12-2014,Central,Rachel,Binder,28,True,4.99
+29-12-2014,East,Susan,Pen Set,74,False,15.99
+06-01-2015,East,Richard,Pencil,95,False,1.99
+15-01-2015,Central,Bill,Binder,46,True,8.99
+23-01-2015,Central,Matthew,Binder,50,False,19.99
+01-02-2015,Central,Smith,Binder,87,False,15
+09-02-2015,Central,Alex,Pencil,36,True,4.99
+18-02-2015,East,Richard,Binder,4,True,4.99
+26-02-2015,Central,Bill,Pen,27,True,19.99
+07-03-2015,West,James,Binder,7,True,19.99
+15-03-2015,West,James,Pencil,56,False,2.99
+24-03-2015,Central,Alex,Pen Set,50,False,4.99
+01-04-2015,East,Richard,Binder,60,False,4.99
+10-04-2015,Central,Rachel,Pencil,66,False,1.99
+18-04-2015,Central,Rachel,Pencil,75,False,1.99
+27-04-2015,East,Nick,Pen,96,False,4.99
+05-05-2015,Central,Alex,Pencil,90,False,4.99
+14-05-2015,Central,Bill,Pencil,53,False,1.29
+22-05-2015,West,Thomas,Pencil,32,True,1.99
+31-05-2015,Central,Bill,Binder,80,False,8.99
+08-06-2015,East,Richard,Binder,60,False,8.99
+25-06-2015,Central,Morgan,Pencil,90,False,4.99

@@ -1,0 +1,5 @@
+# Ignore duplicate and copied files
+*(*).*
+*copy*
+*Copy*
+COVID-19 project/
